@@ -3,6 +3,7 @@
 #2.For loop
 
 #1.while loop
+
 #write a program to display 1-100 natural numbers
 # i=1
 # while(i<=100):
@@ -53,10 +54,11 @@
 #     i+=1
 #     print(fact)
 
+                                              
+#Match Case Statement
 
-#Match Case statement
 #in this we use match key word
-#1.--------------------------------------------------------------------
+#--------------------------------------------------------------------
 # year=int(input("Enter your year:"))
 # match(year):
 #     case 1:
@@ -67,7 +69,7 @@
 #         print("the year is 2003")
 #     case _:
 #         print("Invalid")
-#2.---------------------------------------------------------------------------
+#---------------------------------------------------------------------------
 # num=int(input("enter num"))
 # match(num):
 #     case 1:
@@ -78,7 +80,8 @@
 #         print("multiplication")
 #     case _: 
 #         print("Invalid")       
-        
+
+# Some practice Questions------------------------------------------------------------      
 #3. ATM Machine
 # balance=20000
 # while True:
@@ -87,7 +90,25 @@
 #     print("3. Deposit Cash")
 #     print("4. Exit")
 #     choice=int(input("Enter your choice :"))
-
+#     match(choice):
+#         case 1:
+#             print("The Total balance is =", balance )
+#         case 2:
+#             amount=int(input("Enter the amount to withdraw :"))
+#             if(amount<balance):
+#                 balance-=amount
+#                 print("Balance After withdrawing :",balance)
+#             else:
+#                 print("Insuficient balance")
+#         case 3:
+#             amount=int(input("Enter the amount to deposit :"))
+#             balance+=amount
+#             print("Balance after depositing amount :",balance)
+#         case 4:
+#             print("Thanyou for using the ATM")
+#             break
+#         case _:
+#             print("Invalid Choice!")    
 
 #4.wap to make Area Calculator------------------------------------------------------
 # pie=3.14
@@ -110,6 +131,7 @@
 #             print("Area of Square",Side**2)    
 #         case 4:
 #             print("EXIT")
+#         break
 #         case _:
 #             print("INVALID choice !")         
 
@@ -152,8 +174,8 @@
 #6.WAP to find the cube of 1-10 natural no.
 # i=1
 # while(i<=10):
-#     i+=1
 #     print("Cube of i :",i**3)
+#     i+=1
 #7.WAP to find the sum of all even no. form 1-20
 # sum=0
 # i=2

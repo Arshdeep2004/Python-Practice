@@ -9,19 +9,19 @@
 # first()
 
 #4. Based on Argument and return value
-#a. NO argument,Noreturn value
+# a. NO argument,Noreturn value
 # def first():
 #     print("Hello")
 # first()
-#b. Argument,No return value
+# b. Argument,No return value
 # def first(name):
 #     print("Hello",name)
 # first("Arshdeep")
-#c. Return value,No argument
+# c. Return value,No argument
 # def first():
 #     return "arshdeep"
 # print(first())
-#d.argument with return value 
+# d.argument with return value 
 # def sum(x,y):
 #     return(x+y)
 # print(sum(10,20))

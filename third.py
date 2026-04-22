@@ -214,3 +214,29 @@
 #     n=n//10
 #     count=count+1
 # print(count)   
+#12. WAP to check no. is palindrom or not 
+# n=int(input("Enter your number :"))
+# reversed=0
+# temp=n
+# while(temp!=0):
+#     r=temp%10
+#     reversed=(reversed*10)+r
+#     temp=temp//10
+# if(reversed==n):
+#         print(" palindrom number")
+# else:
+#     print("not a palindrom no.")
+# 13.wap to check no. is amstrong or not 
+# n=int(input("Enter your num :"))
+# temp=n
+# sum=0
+# while(temp >0):
+#     r=temp%10
+#     sum=sum+(r**3)
+#     temp//=10
+
+# if(sum == n):
+#         print("Armstrong Number")
+# else:
+#         print("Not an armstrong number ")
+

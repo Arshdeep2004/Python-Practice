@@ -96,3 +96,83 @@
 # else:
 #     print("Number not found")    
 
+
+
+# ele=int(input("Enter no. of Elements:"))
+# list=[]
+# for i in range(1,ele+1):
+#   a=int(input(f"Enter {i} number :"))
+#   list.append(a)
+# print(list)
+
+
+# name="siya"
+# age=85
+# print("The name is",name)
+# print(f"the name is {name} and the age is {age}")
+
+
+# b=[10,20,31,40,51]
+# sum=0
+# for i in b:
+#     if(i%2==0):
+#         sum=sum+i
+# print("sum of all even no. in this list:",sum)
+
+# list=[153,248,567,345]
+# for i in list:
+#     total=0
+#     temp=i
+#     while temp>0:
+#         r=temp%10
+#         total=total+r**3
+#         temp=temp//10
+#     if(total==i):
+#         print(i,"is armstrong no.")
+#     else:
+#         print(i,"not armstrong no.")   
+
+
+# print("STUDENT MANAGEMENT SYSTEM")
+# student=[]
+# while(True):
+#     print("1.ADD STUDENTS")
+#     print("2.UPDATE STUDENTS")
+#     print("3.DELETE STUDENTS")
+#     print("4.EXIT")
+#     choice=int(input("Enter your choice:"))
+#     if(choice==1):
+#         print("ok! you wannt to add students")
+#         std=int(input("Enter no. of students you want to add:"))
+#         for i in range(1,std+1):
+#             a=str(input(f"Enter {i} student name :"))
+#             student.append(a)
+#         print(student)
+#     elif(choice==2):
+#         print("ok! you wannt to update students")
+#         std=int(input("Enter no. of students you want to update:"))
+#         for i in range(1,std+1):
+#             ind=0
+#             ind=int(input(f"Eneter index where you want to insert student {i}:"))
+#             a=str(input(f"Enter {i} student name :"))
+#             student.insert(ind,a)
+#         print(student)
+#     elif(choice==3):
+#         print("ok! you wannt to delete students")
+#         num=int(input("Enter no. of students you want to delete:"))
+#         for i in range(1,num+1):
+#             a=str(input(f"Enter {i} student name :"))
+#             student.remove(a)
+#         print(student)
+#     elif(choice==4):
+#         print("EXIT!!")
+#         break
+#     else:
+#         print("INVALID CHOICE")
+
+
+
+        
+     
+
+

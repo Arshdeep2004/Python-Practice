@@ -128,9 +128,9 @@
 #         total=total+r**3
 #         temp=temp//10
 #     if(total==i):
-#         print(i,"is armstrong no.")
+#         print(i,"is an armstrong no.")
 #     else:
-#         print(i,"not armstrong no.")   
+#         print(i,"is not an armstrong no.") 
 
 
 # print("STUDENT MANAGEMENT SYSTEM")

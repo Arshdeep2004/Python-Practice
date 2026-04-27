@@ -21,22 +21,6 @@
 #     print(i,end=" ")
 
 
-# import calendar
- # print(calendar.calendar(2004))
-# print(calendar.month(2004,4))
-
-# import math
-# print(math.sqrt(49))
-# print(math.pi)
-# print(math.factorial(5))
-# print(math.ceil(math.sqrt(36)))
-
-# import random
-# print(random.Random())
-# print(random.randint(1,100))
-# print(random.randrange(1,10))
-
-
 # import random
 # num=random.randint(1,100)
 # guess=1

@@ -39,12 +39,14 @@
 # a=[1,2,3.5,"Arshu",False]
 # for i in a:
 #     print(i,end=" ")
+
 # Find the sum of all elements in a list (without using sum())
 # b=[10,20,30,40,50]
 # total=0
 # for i in b:
 #     total=total+i
 # print(total)
+
 # Find the largest element in a list (without max())
 # b=[10,20,30,40,50]
 # largest=b[0]
@@ -111,7 +113,7 @@
 # print("The name is",name)
 # print(f"the name is {name} and the age is {age}")
 
-
+#sum of all even no. in the list 
 # b=[10,20,31,40,51]
 # sum=0
 # for i in b:
@@ -119,6 +121,7 @@
 #         sum=sum+i
 # print("sum of all even no. in this list:",sum)
 
+#armstrong no . or not
 # list=[153,248,567,345]
 # for i in list:
 #     total=0

@@ -52,4 +52,25 @@
 #     #     print("SORRY!!,you entered wrong info")
 
 # print("Total price of food items:",total)
-       
+
+
+#in the empty dictionary add key and values    
+# data = {}
+
+# data["name"] = "Arshdeep"
+# data["age"] = 23
+# data["number"] = 9876543210
+# data["email"] = "arshdeep@example.com"
+
+# for keys,values in data.items():
+#     print(keys,":",values)
+
+#taking input from the user
+# data = {}
+
+# data["name"] = input("Enter name: ")
+# data["age"] = int(input("Enter age: "))
+# data["number"] = input("Enter number: ")
+# data["email"] = input("Enter email: ")
+
+# print(data)
